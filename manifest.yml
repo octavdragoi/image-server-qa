@@ -4,5 +4,6 @@ applications:
   memory: 768M
   host: quality-assurance-image-service
   path: target/quality-assurance-image-service-1.0.jar
+#  below is the mongoDb service name which should be matching with the one already running in Cloud Foundry
   services:
   - quality_assurance_image_db
